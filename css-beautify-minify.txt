@@ -1,0 +1,8 @@
+CssSyntaxError: Unknown word (67:7)
+  65 |   <script>
+  66 |     function calculateAge() {
+> 67 |       var dobInput = document.getElementById('dob');
+     |       ^
+  68 |       var dob = new Date(dobInput.value);
+  69 |       var today = new Date();
+  70 |       var age = today.getFullYear() - dob.getFullYear();
